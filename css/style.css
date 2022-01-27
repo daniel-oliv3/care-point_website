@@ -154,6 +154,12 @@ header .navbar.active{
     font-size: 1.5rem;
 }
 
+.work-section {
+    padding: 2rem 7%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+}
 
 
 
