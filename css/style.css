@@ -26,6 +26,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    width: 100%;
     padding: 2rem 7%;
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
     display: flex;
@@ -35,8 +36,25 @@ header {
 
 header #logo {
     font-size: 3rem;
+    color: black;
 }
 
 header #logo span {
     color: var(--fontcolor);
+}
+
+header .navbar a {
+    font-size: 1.5rem;
+    color: var(--fontcolor);
+    margin-left: 1rem;
+}
+
+.icons i {
+    font-size: 2rem;
+    color: var(--fontcolor);
+    margin-left: 1rem;
+}
+
+header #menu_bars {
+    display: inline-block;
 }
