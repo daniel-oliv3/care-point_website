@@ -139,13 +139,19 @@ header .navbar.active{
 
 .service-box i {
     color: white;
-    font-size: 1.5rem;
-    padding: 1rem 0;
+    font-size: 2rem;
+    padding: .5rem 0;
 }
 
 .service-box h2 {
     color: white;
     font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.service-box p {
+    color: white;
+    font-size: 1.5rem;
 }
 
 
