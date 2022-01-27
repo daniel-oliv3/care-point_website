@@ -56,5 +56,44 @@ header .navbar a {
 }
 
 header #menu_bars {
-    display: inline-block;
+    font-size: 2rem;
+    color: var(--fontcolor);
+    display: none;
+}
+
+
+
+
+
+
+
+/*Responsive*/
+@media (max-width: 768px){
+    html {
+        font-size: 50%;
+    }
+
+    header #menu_bars{
+        display: initial;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--backgroundcolor);
+    }
+
+    header .navbar a {
+        display: block;
+        background: white;
+        margin-top: 1rem;
+        padding: 2rem;
+        border-radius: 10px;
+    }
+
+
+
+
 }
