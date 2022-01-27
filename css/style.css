@@ -32,6 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: white;
 }
 
 header #logo {
@@ -67,6 +68,70 @@ header .navbar.active{
     transition: .5s;
 }
 
+.main-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-top: 75px;
+    height: 100vh;
+}
+
+
+.container {
+    background: url(../images/headerimage.png);
+    width: 100%;
+    padding-top: 7.5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container .main-text{
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -100,6 +165,7 @@ header .navbar.active{
     }
 
 
+    
 
 
 }
