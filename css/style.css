@@ -110,8 +110,25 @@ header .navbar.active{
     border: 1px solid white;
 }
 
+.service-section {
+    padding: 2rem 7%;
+    background: linear-gradient(#43b9dc, #34d3b4);
+    min-height: 50vh;
+}
 
+#ourservices {
+    color: white;
+    font-size: 30px;
+    padding: 2rem 0;
+}
 
+.inner-service-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+}
 
 
 
