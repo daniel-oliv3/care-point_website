@@ -96,9 +96,17 @@ header .navbar.active{
     text-align: center;
 }
 
+.container .main-text h2 {
+    font-size: 40px;
+    color: var(--fontcolor);
+}
 
-
-
+.container .main-text button {
+    padding: 1.5rem 3.5rem;
+    background: var(--backgroundcolor);
+    color: white;
+    border-radius: 10px;
+}
 
 
 
