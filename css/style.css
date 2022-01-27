@@ -120,6 +120,7 @@ header .navbar.active{
     color: white;
     font-size: 30px;
     padding: 2rem 0;
+    text-align: center;
 }
 
 .inner-service-section {
@@ -130,7 +131,11 @@ header .navbar.active{
     text-align: center;
 }
 
-
+.service-box {
+    flex: 1 1 200px;
+    padding: 5rem 0;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+}
 
 
 
