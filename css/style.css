@@ -161,6 +161,21 @@ header .navbar.active{
     justify-content: center;
 }
 
+.inner-work-section h2{
+    font-size: 25px;
+    padding: .5rem 0;
+}
+
+.text-work {
+    padding: 1rem 0;
+    padding-bottom: 2rem;
+}
+
+.myimages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
 
 
 
