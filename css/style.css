@@ -99,6 +99,7 @@ header .navbar.active{
 .container .main-text h2 {
     font-size: 40px;
     color: var(--fontcolor);
+    padding-bottom: 1.5rem;
 }
 
 .container .main-text button {
@@ -106,6 +107,7 @@ header .navbar.active{
     background: var(--backgroundcolor);
     color: white;
     border-radius: 10px;
+    border: 1px solid white;
 }
 
 
@@ -172,7 +174,10 @@ header .navbar.active{
         border-radius: 10px;
     }
 
-
+    .container .main-text{
+        width: 70%;
+        padding: 0;
+    }
     
 
 
