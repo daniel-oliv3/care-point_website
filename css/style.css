@@ -177,7 +177,14 @@ header .navbar.active{
     padding: 1rem;
 }
 
-
+.btn {
+    padding: 1.5rem 3rem;
+    background: var(--backgroundcolor);
+    border-radius: 15px;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+}
 
 
 
@@ -239,6 +246,13 @@ header .navbar.active{
         padding: 0;
     }
     
+    .work-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
+    .myimages img {
+        width: 100%;
+    }
 
 }
