@@ -62,7 +62,10 @@ header #menu_bars {
 }
 
 
-
+header .navbar.active{
+    left: 0;
+    transition: .5s;
+}
 
 
 
