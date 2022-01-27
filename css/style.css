@@ -80,9 +80,11 @@ header #menu_bars {
     header .navbar {
         position: absolute;
         top: 100%;
-        left: 0;
+        left: 100%;
         right: 0;
         background: var(--backgroundcolor);
+        height: 100vh;
+        text-align: center;
     }
 
     header .navbar a {
@@ -90,6 +92,7 @@ header #menu_bars {
         background: white;
         margin-top: 1rem;
         padding: 2rem;
+        width: 90%;
         border-radius: 10px;
     }
 
