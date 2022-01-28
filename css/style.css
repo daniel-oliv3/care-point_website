@@ -191,11 +191,27 @@ header .navbar.active{
     padding: 2rem 0;
 }
 
+.gallery {
+    background: var(--backgroundcolor);
+    min-height: 100vh;
+    padding: 2rem 9%;
+}
 
+.galleryheading {
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 30px;
+}
 
+.galleryheading span {
+    color: var(--fontcolor);
+}
 
-
-
+.main-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
