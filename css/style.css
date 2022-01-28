@@ -184,6 +184,11 @@ header .navbar.active{
     display: inline-block;
     color: white;
     font-size: 18px;
+    margin-top: 5px;
+}
+
+.creative-text {
+    padding: 2rem 0;
 }
 
 
@@ -253,6 +258,10 @@ header .navbar.active{
 
     .myimages img {
         width: 100%;
+    }
+
+    .btn {
+        display: block;
     }
 
 }
