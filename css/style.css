@@ -239,11 +239,23 @@ header .navbar.active{
 .ourteam-inner {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
 }
 
+.ourteam-inner .section-box {
+    flex: 1 1 250px;
+}
 
+.ourteam-inner .section-box img {
+    width: 100%;
+}
 
-
+.section-box h3 {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
 
 
 
