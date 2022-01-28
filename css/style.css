@@ -274,6 +274,7 @@ header .navbar.active{
 .inner-footer h2 {
     color: white;
     font-size: 2rem;
+    padding: 2rem 0;
 }
 
 .inner-footer a {
