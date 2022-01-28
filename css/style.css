@@ -208,9 +208,18 @@ header .navbar.active{
     color: var(--fontcolor);
 }
 
+.main-gallery .gallery-box {
+    flex: 1 1 300px;
+}
+
 .main-gallery {
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
+}
+
+.gallery-box img {
+    width: 100%;
 }
 
 
