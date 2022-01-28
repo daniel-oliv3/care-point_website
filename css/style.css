@@ -222,6 +222,15 @@ header .navbar.active{
     width: 100%;
 }
 
+.ourteam-section {
+    padding: 10rem;
+}
+
+.ourteam-section h2 {
+    padding: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
 
 
 
