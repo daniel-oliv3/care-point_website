@@ -232,7 +232,14 @@ header .navbar.active{
     text-align: center;
 }
 
+.ourteam-section h2 span {
+    color: var(--fontcolor);
+}
 
+.ourteam-inner {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
