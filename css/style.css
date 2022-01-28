@@ -261,11 +261,19 @@ header .navbar.active{
     color: var(--fontcolor);
     font-size: 2rem;
     padding: 1rem 0;
+    cursor: pointer;
 }
 
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    padding: 2rem 9%;
+}
 
-
-
+.inner-footer h2 {
+    color: white;
+}
 
 
 
